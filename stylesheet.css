@@ -1,0 +1,82 @@
+body {
+  font-family:"futura", sans-serif;
+  font-size: 60px;
+  line-height: 150%;
+  letter-spacing: 5px;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: linear-gradient(#4a5260, #1f2630);
+  color:#d9d1ce;
+  max-width:100;
+  padding-bottom: 500px;
+}
+h1 {
+  font-family:"futura", sans-serif;
+  font-size: 7em;
+  letter-spacing:1px;
+  color:#c76f18;
+  text-shadow: 7px 7px 13px #91f0f0;
+}
+.heading h1{
+  margin-top:20vw;
+  font-size: 5vw;
+}
+h2 {
+  font-family:"futura", sans-serif;
+  font-size: 3em;
+  letter-spacing:4px;
+  color:#c76f18;
+  text-align:left;
+}
+
+.logo {
+  float: left;
+  display:block;
+}
+
+.logo img {
+  width:100%;
+  height:auto;
+}
+a {
+  color:#b42a06;
+  font-size:1em;
+  text-align:center;
+}
+.bar {
+  background-color:#91f0f0;
+  border-style: solid;
+  border-color: #4a5260;
+  border-width: medium;
+  padding: 30px;
+  text-align:center;
+}
+
+.leftcol {
+    text-align: center;
+    width:15%;
+    padding-right: 150px;
+}
+
+.centercol {
+  width:40%;
+}
+.rightcol {
+  width:30%;
+}
+
+.rightcol img {
+  width:100%;
+  height:auto;
+  position:sticky;
+}
+
+.centercol p {
+  margin:0;
+  max-width: none;
+}
+
+.wrapper1, .wrapper2 {
+  display:flex;
+}
